@@ -1,0 +1,12 @@
+# grade calculation
+marks = float(input("enter the marks:"))
+if 0 <= marks <= 100:
+  if marks >= 90:
+    grade = "A"
+elif marks >= 80:
+    grade = "B"
+elif marks >= 70:
+    grade = "c"
+elif marks >= 60:
+    grade = "D"
+print("grade:", grade)
