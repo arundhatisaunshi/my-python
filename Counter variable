@@ -1,0 +1,8 @@
+# Initialize the counter variable
+counter = 10
+
+# Use a while loop to count backwards from 10 to 1
+while counter >= 1:
+    print(counter)
+    # Decrement the counter in each iteration
+    counter -= 1
