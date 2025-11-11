@@ -1,0 +1,19 @@
+total_sum = 0
+number = 0
+
+print("Enter numbers to sum them up. Enter a negative number to stop.")
+
+while True:
+    try:
+        number_input = input("Enter a number: ")
+        number = int(number_input)
+
+        if number < 0:
+            break  # Exit the loop if a negative number is entered
+        else:
+            total_sum += number  # Add positive or zero numbers to the sum
+
+    except ValueError:
+        print("Invalid input. Please enter an integer.")
+
+print(f"The sum of the entered non-negative numbers is: {total_sum}")
